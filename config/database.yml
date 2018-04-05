@@ -88,5 +88,6 @@ test:
 production:
   <<: *default
   database: patient_monitoring_production
-  username: patient_monitoring
-  password: <%= ENV['PATIENT_MONITORING_DATABASE_PASSWORD'] %>
+  username: ankit
+  # The password associated with the postgres role (username).
+  password: venu123
